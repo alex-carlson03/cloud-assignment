@@ -1,0 +1,7 @@
+.venv/
+outputs/
+simulated_nosql/
+__pycache__/
+*.pyc
+*.pyo
+~/azurite-data/

@@ -1,0 +1,7 @@
+services:
+  diet-analysis:
+    build: .
+    container_name: diet-analysis-compose
+    volumes:
+      - ./outputs:/app/outputs
+    command: python data_analysis.py
